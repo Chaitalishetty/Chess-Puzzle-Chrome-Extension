@@ -1,0 +1,14 @@
+{
+    "manifest_version":2,
+    "name":"Chess Puzzle",
+    "version":"1.0.0",
+    "description": "Solve daily chess puzzle",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon":"icon.png"
+      },
+      
+    
+      "content_security_policy": "script-src 'self' https://unpkg.com ; object-src 'self'"
+
+}
